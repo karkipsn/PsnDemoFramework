@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PsnDemoFramework"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A short testing framework description of PsnDemoFramework."
 
   # This description is used to generate tags and improve search results.
@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                     "A short testing framework description of PsnDemoFramework."
+                    A short testing framework description of PsnDemoFramework.
                    DESC
 
-  spec.homepage     = "https://github.com/karkipsn/PsnDemoFramework.git"
+  spec.homepage     = "https://github.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "PsnDemoFramework/Source/*.{swift}"
+  spec.source_files  = "PsnDemoFramework/Source/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "5.0"
 
